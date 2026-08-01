@@ -1,8 +1,24 @@
 aid: pingo
-name: Pingo
-description: 'Pingo is a company surfaced as a portfolio company of matrix-partners and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pingo.png
+name: Pingo AI
+description: 'Pingo AI, Inc. is a consumer language-learning application that uses
+  conversational AI to help learners practice speaking across 15 languages including
+  English, Spanish, French, German, Japanese, Korean, Chinese, Italian, Portuguese,
+  and Arabic. Learners hold real-time voice conversations with an adaptive AI tutor
+  and get a transcript and vocabulary list for every session, following personalized
+  learning paths. Pingo is distributed as iOS and Android mobile apps and publishes
+  no public API, SDK, or developer platform. Backed by Matrix Partners.'
 url: https://raw.githubusercontent.com/api-evangelist/pingo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Ai
+- AI
+- Language Learning
+- Education
+- Conversational AI
+- Mobile App
+- EdTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +45,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://mypingoai.com
+  url: https://pingo.ai/
+- type: TermsOfService
+  url: https://pingo.ai/terms
+- type: PrivacyPolicy
+  url: https://pingo.ai/privacy
+- type: Support
+  url: https://pingo.ai/help
+- type: DomainSecurity
+  url: security/pingo-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
