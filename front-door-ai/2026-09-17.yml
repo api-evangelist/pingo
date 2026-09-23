@@ -1,0 +1,25 @@
+# Front Door AI Index — pingo — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: pingo
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: pingo.ai
+  final_host: pingo.ai
+  ownership: own
+  owner: pingo
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 5
+  host_score: 5
+  density: 4.4
+  words: 1136
+  tiers:
+    agentic: 0
+    core: 5
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 5
